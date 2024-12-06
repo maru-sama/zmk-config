@@ -34,7 +34,7 @@
 &kp TAB           &kp Q     &kp W  &kp E     &kp R                   &kp T        &kp DE_Z  &kp U         &kp I      &kp O    &kp P                        &kp DE_SHARP_S
 &kp LEFT_SHIFT    &kp A     &kp S  &kp D     &kp F                   &kp G        &kp H     &kp J         &kp K      &kp L    &mt DE_A_UMLAUT DE_O_UMLAUT  &kp RSHIFT
 &kp LEFT_CONTROL  &kp DE_Y  &kp X  &kp C     &kp V                   &kp B        &kp N     &kp M         &kp COMMA  &kp DOT  &kp DE_MINUS                 &kp DE_U_UMLAUT
-                                   &kp LGUI  &mt LEFT_ALT BACKSPACE  &kp SPACE    &kp RET   &lt 1 DELETE  &kp RALT
+                                   &kp LGUI  &kp SPACE               &mt LEFT_ALT BACKSPACE &lt 1 DELETE  &kp RET &kp RALT
             >;
         };
 
