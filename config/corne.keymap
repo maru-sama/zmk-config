@@ -31,10 +31,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E     &kp R                   &kp T        &kp Z    &kp U         &kp I      &kp O    &kp P                        &kp DE_SHARP_S
-&kp LEFT_SHIFT    &kp A  &kp S  &kp D     &kp F                   &kp G        &kp H    &kp J         &kp K      &kp L    &mt DE_A_UMLAUT DE_O_UMLAUT  &kp RSHIFT
-&kp LEFT_CONTROL  &kp Y  &kp X  &kp C     &kp V                   &kp B        &kp N    &kp M         &kp COMMA  &kp DOT  &kp MINUS                    &kp DE_U_UMLAUT
-                                &kp LGUI  &mt LEFT_ALT BACKSPACE  &kp SPACE    &kp RET  &lt 1 DELETE  &kp RALT
+&kp TAB           &kp Q     &kp W  &kp E     &kp R                   &kp T        &kp DE_Z  &kp U         &kp I      &kp O    &kp P                        &kp DE_SHARP_S
+&kp LEFT_SHIFT    &kp A     &kp S  &kp D     &kp F                   &kp G        &kp H     &kp J         &kp K      &kp L    &mt DE_A_UMLAUT DE_O_UMLAUT  &kp RSHIFT
+&kp LEFT_CONTROL  &kp DE_Y  &kp X  &kp C     &kp V                   &kp B        &kp N     &kp M         &kp COMMA  &kp DOT  &kp DE_MINUS                 &kp DE_U_UMLAUT
+                                   &kp LGUI  &mt LEFT_ALT BACKSPACE  &kp SPACE    &kp RET   &lt 1 DELETE  &kp RALT
             >;
         };
 
@@ -61,9 +61,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6          &kp F7        &kp F8      &kp F9            &kp F10        &kp F11     &kp F12
-&trans      &trans        &trans        &trans        &trans        &trans          &trans        &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_FORWARD  &trans      &kp C_VOLUME_UP
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &out OUT_TOG  &trans      &trans            &studio_unlock         &kp K_MUTE  &kp C_VOLUME_DOWN
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6          &kp F7        &kp F8      &kp F9            &kp F10         &kp F11     &kp F12
+&trans      &trans        &trans        &trans        &trans        &trans          &trans        &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_FORWARD   &trans      &kp C_VOLUME_UP
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &out OUT_TOG  &trans      &trans            &studio_unlock  &kp K_MUTE  &kp C_VOLUME_DOWN
                                         &kp LGUI      &trans        &kp LALT        &to 0         &trans      &trans
             >;
         };
