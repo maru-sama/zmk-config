@@ -21,31 +21,31 @@
 
         Clear_BT0 {
             bindings = <&Clear_BT 0>;
-            key-positions = <25 18>;
+            key-positions = <25 18 24>;
             layers = <2 5>;
         };
 
         Clear_BT1 {
             bindings = <&Clear_BT 1>;
-            key-positions = <18 26>;
+            key-positions = <18 26 24>;
             layers = <2 5>;
         };
 
         Clear_BT2 {
             bindings = <&Clear_BT 2>;
-            key-positions = <18 27>;
+            key-positions = <18 27 24>;
             layers = <2 5>;
         };
 
         Clear_BT3 {
             bindings = <&Clear_BT 3>;
-            key-positions = <18 28>;
+            key-positions = <18 28 24>;
             layers = <2 5>;
         };
 
         Clear_BT4 {
             bindings = <&Clear_BT 4>;
-            key-positions = <18 29>;
+            key-positions = <18 29 24>;
             layers = <2 5>;
         };
     };
