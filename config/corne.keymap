@@ -99,7 +99,7 @@
             >;
         };
 
-        lower_layer {
+        numbers_braces_navigation {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -114,7 +114,7 @@
             >;
         };
 
-        raise_layer {
+        fkeys_bt_media {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -129,7 +129,7 @@
             >;
         };
 
-        layer_3 {
+        default_layer_large_key_switch {
             bindings = <
 &kp TAB           &kp Q     &kp W  &kp E     &kp R                                &kp T        &kp DE_Z  &kp U                       &kp I      &kp O    &kp P                        &kp DE_SHARP_S
 &kp LEFT_SHIFT    &kp A     &kp S  &kp D     &kp F                                &kp G        &kp H     &kp J                       &kp K      &kp L    &mt DE_A_UMLAUT DE_O_UMLAUT  &kp RSHIFT
@@ -138,7 +138,7 @@
             >;
         };
 
-        layer_4 {
+        n_b_n_large_key_switch {
             bindings = <
 &kp DE_TILDE  &kp N1            &kp N2             &kp N3                   &kp N4                    &kp N5                &kp N6        &kp N7       &kp N8       &kp N9     &kp N0         &kp HOME
 &trans        &kp DE_BACKSLASH  &kp DE_LEFT_BRACE  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_RIGHT_BRACE    &kp LEFT      &kp DOWN     &kp UP       &kp RIGHT  &kp PAGE_UP    &trans
@@ -147,7 +147,7 @@
             >;
         };
 
-        layer_5 {
+        fk_bt_media_large_key_switch {
             bindings = <
 &kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6          &kp F7        &kp F8      &kp F9            &kp F10         &kp F11     &kp F12
 &trans      &trans        &trans        &trans        &trans        &trans          &trans        &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_FORWARD   &trans      &kp C_VOLUME_UP
