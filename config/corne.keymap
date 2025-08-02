@@ -139,7 +139,7 @@
 
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4    &kp F5  &kp F6      &kp F7        &kp F8      &kp F9            &kp F10         &kp F11     &kp F12
-&trans  &trans  &trans  &trans    &trans  &trans      &none         &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_FORWARD   &trans      &kp C_VOLUME_UP
+&trans  &trans  &trans  &trans    &trans  &trans      &none         &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT      &trans      &kp C_VOLUME_UP
 &none   &none   &none   &none     &none   &none       &out OUT_TOG  &trans      &trans            &studio_unlock  &kp K_MUTE  &kp C_VOLUME_DOWN
                         &kp LGUI  &trans  &kp LALT    &to 0         &trans      &trans
             >;
@@ -166,7 +166,7 @@
         fk_bt_media_large_key_switch {
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4    &kp F5  &kp F6      &kp F7        &kp F8      &kp F9            &kp F10         &kp F11     &kp F12
-&trans  &trans  &trans  &trans    &trans  &trans      &trans        &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_FORWARD   &trans      &kp C_VOLUME_UP
+&trans  &trans  &trans  &trans    &trans  &trans      &trans        &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT      &trans      &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans    &trans  &trans      &out OUT_TOG  &trans      &trans            &studio_unlock  &kp K_MUTE  &kp C_VOLUME_DOWN
                         &kp LGUI  &trans  &kp LALT    &to 3         &trans      &trans
             >;
