@@ -37,13 +37,13 @@
             layers = <2 5>;
         };
 
-        Select_Pair_BT3 {
+        Select_Clear_BT3 {
             bindings = <&BT_Combo 3 3>;
             key-positions = <18 28>;
             layers = <2 5>;
         };
 
-        Select_Pair_BT4 {
+        Select_Clear_BT4 {
             bindings = <&BT_Combo 4 4>;
             key-positions = <18 29>;
             layers = <2 5>;
