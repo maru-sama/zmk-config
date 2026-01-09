@@ -126,7 +126,7 @@
 &kp DE_TILDE  &kp N1            &kp N2             &kp N3                   &kp N4                    &kp N5                &kp N6        &kp N7       &kp N8       &kp N9     &kp N0         &kp HOME
 &trans        &kp DE_BACKSLASH  &kp DE_LEFT_BRACE  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_RIGHT_BRACE    &kp LEFT      &kp DOWN     &kp UP       &kp RIGHT  &kp PAGE_UP    &trans
 &trans        &kp DE_LESS_THAN  &kp DE_FSLH        &kp DE_LEFT_BRACKET      &kp DE_RIGHT_BRACKET      &kp DE_PIPE           &kp DE_CARET  &kp DE_PLUS  &kp DE_HASH  &kp EQUAL  &kp PAGE_DOWN  &kp END
-                                                   &to 3                    &tog 2                    &kp LEFT_ALT          &kp RET       &trans       &kp RALT
+                                                   &trans                   &tog 2                    &kp LEFT_ALT          &kp RET       &trans       &kp RALT
             >;
         };
 
@@ -138,10 +138,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4    &kp F5  &kp F6      &kp F7        &kp F8      &kp F9            &kp F10         &kp F11     &kp F12
-&trans  &trans  &trans  &trans    &trans  &trans      &none         &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT      &trans      &kp C_VOLUME_UP
-&none   &none   &none   &none     &none   &none       &out OUT_TOG  &trans      &trans            &studio_unlock  &kp K_MUTE  &kp C_VOLUME_DOWN
-                        &kp LGUI  &trans  &kp LALT    &to 0         &trans      &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6      &kp F7        &kp F8      &kp F9            &kp F10         &kp F11     &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans      &none         &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT      &trans      &kp C_VOLUME_UP
+&none   &none   &none   &none   &none   &none       &out OUT_TOG  &trans      &trans            &studio_unlock  &kp K_MUTE  &kp C_VOLUME_DOWN
+                        &trans  &trans  &kp LALT    &to 0         &trans      &trans
             >;
         };
 
