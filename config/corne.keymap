@@ -48,6 +48,11 @@
             key-positions = <18 29>;
             layers = <2 5>;
         };
+
+        MySoftOff {
+            bindings = <&MySoftOff>;
+            key-positions = <0 11>;
+        };
     };
 
     behaviors {
@@ -78,6 +83,13 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <4000>;
+        };
+
+        MySoftOff: MySoftOff {
+            compatible = "zmk,behavior-soft-off";
+            label = "MYSOFTOFF";
+            #binding-cells = <0>;
+            hold-time-ms = <5000>;
         };
     };
 
