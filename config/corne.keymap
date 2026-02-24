@@ -12,6 +12,10 @@
 
 &soft_off { hold-time-ms = <5000>; };
 
+&lt { quick-tap-ms = <200>; };
+
+&mt { quick-tap-ms = <200>; };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -58,26 +62,6 @@
     };
 
     behaviors {
-        Hold_tap_repeat: Hold_tap_repeat {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP_REPEAT";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <200>;
-        };
-
-        layer_tap_repeat: layer_tap_repeat {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_REPEAT";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <200>;
-        };
-
         BT_Combo: BT_Combo {
             compatible = "zmk,behavior-hold-tap";
             label = "BT_COMBO";
@@ -115,10 +99,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB           &kp Q     &kp W  &kp E     &kp R      &kp T                                  &kp DE_Z                    &kp U    &kp I      &kp O    &kp P                        &kp DE_SHARP_S
-&kp LEFT_SHIFT    &kp A     &kp S  &kp D     &kp F      &kp G                                  &kp H                       &kp J    &kp K      &kp L    &mt DE_A_UMLAUT DE_O_UMLAUT  &kp RSHIFT
-&kp LEFT_CONTROL  &kp DE_Y  &kp X  &kp C     &kp V      &kp B                                  &kp N                       &kp M    &kp COMMA  &kp DOT  &kp DE_MINUS                 &kp DE_U_UMLAUT
-                                   &kp LGUI  &kp SPACE  &Hold_tap_repeat LEFT_ALT BACKSPACE    &layer_tap_repeat 1 DELETE  &kp RET  &kp RALT
+&kp TAB           &kp Q     &kp W  &kp E     &kp R      &kp T                     &kp DE_Z      &kp U    &kp I      &kp O    &kp P                        &kp DE_SHARP_S
+&kp LEFT_SHIFT    &kp A     &kp S  &kp D     &kp F      &kp G                     &kp H         &kp J    &kp K      &kp L    &mt DE_A_UMLAUT DE_O_UMLAUT  &kp RSHIFT
+&kp LEFT_CONTROL  &kp DE_Y  &kp X  &kp C     &kp V      &kp B                     &kp N         &kp M    &kp COMMA  &kp DOT  &kp DE_MINUS                 &kp DE_U_UMLAUT
+                                   &kp LGUI  &kp SPACE  &mt LEFT_ALT BACKSPACE    &lt 1 DELETE  &kp RET  &kp RALT
             >;
         };
 
@@ -154,10 +138,10 @@
 
         default_layer_large_key_switch {
             bindings = <
-&kp TAB           &kp Q     &kp W  &kp E     &kp R                                &kp T        &kp DE_Z  &kp U                       &kp I      &kp O    &kp P                        &kp DE_SHARP_S
-&kp LEFT_SHIFT    &kp A     &kp S  &kp D     &kp F                                &kp G        &kp H     &kp J                       &kp K      &kp L    &mt DE_A_UMLAUT DE_O_UMLAUT  &kp RSHIFT
-&kp LEFT_CONTROL  &kp DE_Y  &kp X  &kp C     &kp V                                &kp B        &kp N     &kp M                       &kp COMMA  &kp DOT  &kp DE_MINUS                 &kp DE_U_UMLAUT
-                                   &kp LGUI  &Hold_tap_repeat LEFT_ALT BACKSPACE  &kp SPACE    &kp RET   &layer_tap_repeat 4 DELETE  &kp RALT
+&kp TAB           &kp Q     &kp W  &kp E     &kp R                   &kp T        &kp DE_Z  &kp U         &kp I      &kp O    &kp P                        &kp DE_SHARP_S
+&kp LEFT_SHIFT    &kp A     &kp S  &kp D     &kp F                   &kp G        &kp H     &kp J         &kp K      &kp L    &mt DE_A_UMLAUT DE_O_UMLAUT  &kp RSHIFT
+&kp LEFT_CONTROL  &kp DE_Y  &kp X  &kp C     &kp V                   &kp B        &kp N     &kp M         &kp COMMA  &kp DOT  &kp DE_MINUS                 &kp DE_U_UMLAUT
+                                   &kp LGUI  &mt LEFT_ALT BACKSPACE  &kp SPACE    &kp RET   &lt 4 DELETE  &kp RALT
             >;
         };
 
